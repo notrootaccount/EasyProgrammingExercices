@@ -5,8 +5,21 @@ public class EasyExercices {
 
     public static void main(String[] args) {
 //use methods here
+    String  Structure="###########E########"
+                    + "#...#######.#####.##"
+                    + "#.#.#######.#..##.##"
+                    + "#...........##.....#"
+                    + "#.############.##.##"
+                    + "#.########.###.##.##"
+                    + "#.####.....###.##..#"
+                    + "#......###..S..#####"
+                    + "######.#############"
+                    + "####################"; 
+   
+    Maze Laberinto = new Maze(Structure);
+    Laberinto.isway();
+    
 
-       System.out.println(Recursive_Basic_Exercices.GreaterCommonDivisor(1024,10240));
     }
     
 }
