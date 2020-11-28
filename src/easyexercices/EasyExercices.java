@@ -1,11 +1,11 @@
 package easyexercices;
-
+import java.util.*;
 
 public class EasyExercices {
 
     public static void main(String[] args) {
 //use methods here
-    String  Structure="###########E########"
+/*  String  Structure="###########E########"
                     + "#...#######.#####.##"
                     + "#.#.#######.#..##.##"
                     + "#...........##.....#"
@@ -14,11 +14,9 @@ public class EasyExercices {
                     + "#.####.....###.##..#"
                     + "#......###..S..#####"
                     + "######.#############"
-                    + "####################"; 
+                    + "####################"; '*/
    
-    Maze Laberinto = new Maze(Structure);
-    Laberinto.isway();
-    
+Recursive_Basic_Exercices.nQueenProblem(8);
 
     }
     
